@@ -1,6 +1,7 @@
 {
   "demo-2": {
-    "title": "Translation demo - PROJ-2",
-    "text": "This is a simple demonstration app for ngx-translate"
+    "title": "Translation demo",
+    "text": "Translation from Project 2",
+    "info": "Resource loading from - assets/i18n/proj-2/en.json"
   }
 }

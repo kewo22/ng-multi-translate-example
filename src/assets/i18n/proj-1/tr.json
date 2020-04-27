@@ -1,6 +1,7 @@
 {
   "demo-1": {
-    "title": "TRANSLATED !!! PROJ-1",
-    "text": "TRANSLATED !!!"
+    "title": "Démo de traduction",
+    "text": "Traduction du projet 1",
+    "info": "Resource loading from - assets/i18n/proj-1/tr.json"
   }
 }

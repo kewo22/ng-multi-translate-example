@@ -1,12 +1,18 @@
 <div>
+	<button (click)="useLanguage('en')">en</button>
+	<button (click)="useLanguage('tr')">tr</button>
+</div>
+
+<div>
 	<!-- translation: translation pipe -->
 	<h1>{{ 'demo-1.title' | translate }}</h1>
 
-	<!-- translation: directive (key as attribute)-->
-	<p [translate]="'demo-1.title'"></p>
-
 	<!-- translation: directive (key as content of element) -->
 	<p translate>demo-1.text</p>
+
+	<!-- translation: directive (key as attribute)-->
+	<i [translate]="'demo-1.info'"></i>
+
 </div>
 
 <hr>
@@ -15,14 +21,9 @@
 	<!-- translation: translation pipe -->
 	<h1>{{ 'demo-2.title' | translate }}</h1>
 
-	<!-- translation: directive (key as attribute)-->
-	<p [translate]="'demo-2.title'"></p>
-
 	<!-- translation: directive (key as content of element) -->
 	<p translate>demo-2.text</p>
+
+	<!-- translation: directive (key as attribute)-->
+	<i [translate]="'demo-2.info'"></i>
 </div>
-
-
-<button (click)="useLanguage('en')">en</button>
-<br>
-<button (click)="useLanguage('tr')">tr</button>
